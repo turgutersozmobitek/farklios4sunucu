@@ -99,7 +99,7 @@ variable "vm_ip" {
 
 variable "vm2_name" {
     type        = string
-    description = "Sunucu Adı:"
+    description = "2.Sunucu Adı:"
 }
 
 
@@ -155,7 +155,7 @@ variable "vm2_ip" {
 
 variable "vm3_name" {
     type        = string
-    description = "Sunucu Adı:"
+    description = "3.Sunucu Adı:"
 }
 
 
@@ -211,7 +211,7 @@ variable "vm3_ip" {
 
 variable "vm4_name" {
     type        = string
-    description = "Sunucu Adı:"
+    description = "4.Sunucu Adı:"
 }
 
 
