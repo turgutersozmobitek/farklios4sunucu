@@ -12,6 +12,7 @@ resource "vcd_vapp_org_network" "vappOrgNet" {
 resource "vcd_vapp_vm" "web1" {
   vapp_name     = var.vapp_name
   name          = var.vm_name
+  computer_name = var.computer_name
   catalog_name  = var.catalog_name
   template_name = var.template_name
   memory        = var.vm_memory
@@ -49,6 +50,7 @@ resource "vcd_vapp_vm" "web1" {
 resource "vcd_vapp_vm" "web2" {
   vapp_name     = var.vapp_name
   name          = var.vm2_name
+  computer_name = var.computer_name2
   catalog_name  = var.catalog2_name
   template_name = var.template2_name
   memory        = var.vm2_memory
@@ -86,6 +88,7 @@ resource "vcd_vapp_vm" "web2" {
 resource "vcd_vapp_vm" "web3" {
   vapp_name     = var.vapp_name
   name          = var.vm3_name
+  computer_name = var.computer_name3
   catalog_name  = var.catalog3_name
   template_name = var.template3_name
   memory        = var.vm3_memory
@@ -124,6 +127,7 @@ resource "vcd_vapp_vm" "web3" {
 resource "vcd_vapp_vm" "web4" {
   vapp_name     = var.vapp_name
   name          = var.vm4_name
+  computer_name = var.computer_name4
   catalog_name  = var.catalog4_name
   template_name = var.template4_name
   memory        = var.vm4_memory
